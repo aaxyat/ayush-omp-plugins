@@ -8,7 +8,9 @@
   "omp": {
     "extensions": [
       "./src/antigravity-usage.ts",
-      "./src/authoritative-agents.ts"
+      "./src/authoritative-agents.ts",
+      "./src/deepseek-status.ts",
+      "./src/token-per-second.ts"
     ]
   }
 }
