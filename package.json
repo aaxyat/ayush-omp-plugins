@@ -1,0 +1,14 @@
+{
+  "name": "ayush-omp-plugins",
+  "version": "1.0.0",
+  "description": "Custom Oh My Pi plugins and extensions by Ayush",
+  "type": "module",
+  "author": "Ayush (aaxyat)",
+  "license": "MIT",
+  "omp": {
+    "extensions": [
+      "./src/antigravity-usage.ts",
+      "./src/authoritative-agents.ts"
+    ]
+  }
+}
