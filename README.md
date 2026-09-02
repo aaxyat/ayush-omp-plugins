@@ -1,6 +1,22 @@
-# ayush-omp-plugins
+# aaxyat-omp
 
 Custom runtime extensions and status bar enhancements for [Oh My Pi](https://omp.sh).
+
+## Quick Install
+
+Install directly via the Oh My Pi plugin manager:
+
+```bash
+omp plugin install aaxyat-omp
+```
+
+Or link locally for development:
+
+```bash
+omp plugin link /path/to/ayush-omp-plugins
+```
+
+---
 
 ## Included Extensions & Plugins
 
@@ -47,16 +63,6 @@ statusLine:
   rightSegments:
     - session_name
 ```
-
----
-
-## Installation
-
-Link locally to your Oh My Pi agent:
-```bash
-omp plugin link /path/to/ayush-omp-plugins
-```
-Or copy directly into `~/.omp/agent/extensions/`.
 
 ---
 
